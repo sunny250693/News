@@ -1,0 +1,63 @@
+{% extends base.html %}
+{% block content1 %}
+<div class="log-in">
+	<form method="post">
+		<table>
+			<tr>
+				<td><label>Email or Username</label></td>
+				<td><label>Password</label></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="email"></td>
+				<td><input type="text" name="password"></td>
+				<td><input type="submit" value="Log In"></td>
+			</tr>
+		</table>
+	</form>
+</div>
+{% endblock %}
+{% block content2 %}
+<div class="sign-up">
+	<div id="create-account">
+		Create a New Account
+	</div>
+	<form method="post">
+		<table>
+			<tr>
+				<td><input type="text" name="firstname" placeholder="First Name"></td>
+				<td><input type="text" name="lastname" placeholder="Last Name"></td>
+			</tr>
+			<tr>
+				<td>
+					<input type="text" name="email" placeholder="Email">
+				</td>
+			</tr>
+			<tr>
+				<td><input type="text" name="user" placeholder="Username"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="mobile" placeholder="Mobile Number"></td>
+			</tr>
+			<tr>
+				<td><input type="paswword" name="password" placeholder="Password"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="password2" placeholder="Retype Password"></td>
+			</tr>
+			<tr>
+				<td>
+					<input type="radio" name="user" value="Publisher" id="publisher">
+					<label for="publisher">Publisher</label>
+				</td>
+				<td>
+					<input type="radio" name="user" value="Subscriber" id="subscriber">
+					<label for="subscriber">Subscriber</label>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Create Account"></td>
+			</tr>
+		</table>
+	</form>
+</div>
+{% endblock %}

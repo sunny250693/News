@@ -1,0 +1,21 @@
+.brand h1 {
+	float: left;
+	margin-left: 40px;
+	color: white;
+}
+
+.log-in table {
+	float: right;
+	margin-top: 21.440px;
+	margin-right: 40px;
+	color: white;
+}
+
+.container {
+	background-color: #4B0082;
+	height: 100px;
+}
+
+#create-account {
+	font-size: 20px;
+}
